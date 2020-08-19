@@ -60,8 +60,8 @@ public class ExcelUtil {
     public static void setExcelFileSheet(String sheetName) {
         //MAC or Windows Selection for excel path
         if (Platform.getCurrent().toString().equalsIgnoreCase("MAC")) {
-            testDataExcelPath = currentDir + "//src//test//java//resources//";
-            //  testDataExcelPath = currentDir + "./src/test/java/resources/";
+            testDataExcelPath = currentDir + "//src//test//java//resources//"; //This path is for MAC
+            //  testDataExcelPath = currentDir + "./src/test/java/resources/"; //This path is for WINDOWS
         } else if (Platform.getCurrent().toString().contains("WIN")) {
             testDataExcelPath = currentDir + "\\src\\test\\java\\resources\\";
         }

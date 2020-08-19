@@ -1135,3 +1135,505 @@
 2020-07-24 11:22:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
 2020-07-24 11:22:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2020-07-24 11:22:45 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-04 14:02:50 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:02:50 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:02:51 DEBUG ResolutionCache:158 - Removing resolution chrome=84 from cache (expired on Sat Jul 25 10:29:44 CEST 2020)
+2020-08-04 14:02:51 DEBUG Shell:54 - Running command on the shell: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --version]
+2020-08-04 14:02:51 DEBUG Shell:56 - Result: Google Chrome 84.0.4147.105
+2020-08-04 14:02:51 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:02:51 DEBUG ResolutionCache:122 - Storing resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:02:51 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:02:51 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:02:51 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:02:51 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:02:51 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:02:51 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:03:01 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2020-08-04 14:03:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2020-08-04 14:03:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2020-08-04 14:03:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-04 14:03:01 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-04 14:03:31 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:03:31 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:03:32 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:03:32 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:03:32 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:03:32 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:03:32 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:03:32 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:03:32 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:03:32 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:04:32 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:04:32 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:04:33 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:04:33 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:04:33 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:04:33 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:04:33 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:04:33 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:04:33 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:04:33 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:06:24 INFO  Log:26 - ************Setup Test Data Excel**********
+2020-08-04 14:06:27 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:06:27 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:06:27 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:06:27 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:06:27 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:06:27 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:06:27 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:06:27 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:06:27 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:06:27 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:06:32 INFO  Log:12 - **************************************************************************
+2020-08-04 14:06:32 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:06:32 INFO  Log:14 - **************************************************************************
+2020-08-04 14:06:32 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-04 14:06:32 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-04 14:06:32 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-04 14:06:33 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-04 14:06:33 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-04 14:06:33 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-04 14:06:33 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-04 14:06:34 INFO  Log:26 - Submitting webform
+2020-08-04 14:06:34 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-04 14:06:34 INFO  Log:19 - *************************************************************************
+2020-08-04 14:06:34 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:06:34 INFO  Log:21 - *************************************************************************
+2020-08-04 14:06:34 INFO  Log:12 - **************************************************************************
+2020-08-04 14:06:34 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_002    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:06:34 INFO  Log:14 - **************************************************************************
+2020-08-04 14:06:35 INFO  Log:26 - Firstname picked from Excel row number 5
+2020-08-04 14:06:35 INFO  Log:26 - Lastname picked from Excel row number 5
+2020-08-04 14:06:35 INFO  Log:26 - Jobtitle picked from Excel row number 5
+2020-08-04 14:06:35 INFO  Log:26 - Education radio-button picked from Excel row number 5
+2020-08-04 14:06:35 INFO  Log:26 - Gender radio-button picked from Excel row number 5
+2020-08-04 14:06:35 INFO  Log:26 - Years of experience radio-button picked from Excel row number 5
+2020-08-04 14:06:35 INFO  Log:26 - Typing date from Excel row number 5
+2020-08-04 14:06:39 INFO  Log:26 - Submitting webform
+2020-08-04 14:06:39 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 5
+2020-08-04 14:06:39 INFO  Log:19 - *************************************************************************
+2020-08-04 14:06:39 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:06:39 INFO  Log:21 - *************************************************************************
+2020-08-04 14:06:39 INFO  Log:12 - **************************************************************************
+2020-08-04 14:06:39 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_003    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:06:39 INFO  Log:14 - **************************************************************************
+2020-08-04 14:06:39 INFO  Log:26 - Firstname picked from Excel row number 7
+2020-08-04 14:06:39 INFO  Log:26 - Lastname picked from Excel row number 7
+2020-08-04 14:06:39 INFO  Log:26 - Jobtitle picked from Excel row number 7
+2020-08-04 14:06:42 INFO  Log:26 - Submitting webform
+2020-08-04 14:06:42 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 7
+2020-08-04 14:06:43 INFO  Log:19 - *************************************************************************
+2020-08-04 14:06:43 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:06:43 INFO  Log:21 - *************************************************************************
+2020-08-04 14:06:43 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2020-08-04 14:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2020-08-04 14:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2020-08-04 14:06:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-04 14:06:43 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-04 14:08:35 INFO  Log:26 - ************Setup Test Data Excel**********
+2020-08-04 14:08:35 INFO  Log:26 - ************Setup Test Data Excel**********
+2020-08-04 14:08:37 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:08:37 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:08:37 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:08:37 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:08:37 DEBUG ResolutionCache:158 - Removing resolution firefox=78 from cache (expired on Fri Jul 17 22:09:34 CEST 2020)
+2020-08-04 14:08:37 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:08:37 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:08:37 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:08:37 DEBUG Shell:54 - Running command on the shell: [/Applications/Firefox.app/Contents/MacOS/firefox, -v]
+2020-08-04 14:08:37 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:08:37 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:08:37 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:08:37 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:08:37 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:08:41 DEBUG Shell:56 - Result: Mozilla Firefox 78.0.2
+2020-08-04 14:08:41 INFO  WebDriverManager:571 - Using geckodriver 0.26.0 (since Firefox 78 is installed in your machine)
+2020-08-04 14:08:41 DEBUG ResolutionCache:122 - Storing resolution firefox=78 in cache (valid until 14:08:41 05/08/2020 CEST)
+2020-08-04 14:08:41 TRACE CacheHandler:81 - Checking if geckodriver exists in cache
+2020-08-04 14:08:41 TRACE CacheHandler:66 - Filter cache by geckodriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:08:41 TRACE CacheHandler:66 - Filter cache by 0.26.0 -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:08:41 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:08:41 DEBUG WebDriverManager:520 - Driver geckodriver 0.26.0 found in cache
+2020-08-04 14:08:41 INFO  WebDriverManager:615 - Exporting webdriver.gecko.driver as /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver
+2020-08-04 14:08:43 INFO  Log:12 - **************************************************************************
+2020-08-04 14:08:43 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:08:43 INFO  Log:14 - **************************************************************************
+2020-08-04 14:08:43 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-04 14:08:44 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-04 14:08:44 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-04 14:08:44 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-04 14:08:44 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-04 14:08:44 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-04 14:08:44 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-04 14:08:45 INFO  Log:26 - Submitting webform
+2020-08-04 14:08:45 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-04 14:08:45 INFO  Log:19 - *************************************************************************
+2020-08-04 14:08:45 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:08:45 INFO  Log:21 - *************************************************************************
+2020-08-04 14:08:46 INFO  Log:12 - **************************************************************************
+2020-08-04 14:08:46 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_002    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:08:46 INFO  Log:14 - **************************************************************************
+2020-08-04 14:08:46 INFO  Log:26 - Firstname picked from Excel row number 5
+2020-08-04 14:08:47 INFO  Log:26 - Lastname picked from Excel row number 5
+2020-08-04 14:08:47 INFO  Log:26 - Jobtitle picked from Excel row number 5
+2020-08-04 14:08:47 INFO  Log:26 - Education radio-button picked from Excel row number 5
+2020-08-04 14:08:47 INFO  Log:26 - Gender radio-button picked from Excel row number 5
+2020-08-04 14:08:47 INFO  Log:26 - Years of experience radio-button picked from Excel row number 5
+2020-08-04 14:08:48 INFO  Log:26 - Typing date from Excel row number 5
+2020-08-04 14:08:51 INFO  Log:12 - **************************************************************************
+2020-08-04 14:08:51 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:08:51 INFO  Log:14 - **************************************************************************
+2020-08-04 14:08:51 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-04 14:08:51 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-04 14:08:51 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-04 14:08:51 INFO  Log:26 - Submitting webform
+2020-08-04 14:08:51 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 5
+2020-08-04 14:08:51 INFO  Log:19 - *************************************************************************
+2020-08-04 14:08:51 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:08:51 INFO  Log:21 - *************************************************************************
+2020-08-04 14:08:51 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-04 14:08:52 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-04 14:08:52 INFO  Log:12 - **************************************************************************
+2020-08-04 14:08:52 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_003    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:08:52 INFO  Log:14 - **************************************************************************
+2020-08-04 14:08:52 INFO  Log:26 - Firstname picked from Excel row number 7
+2020-08-04 14:08:52 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-04 14:08:52 INFO  Log:26 - Lastname picked from Excel row number 7
+2020-08-04 14:08:52 INFO  Log:26 - Jobtitle picked from Excel row number 7
+2020-08-04 14:08:52 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-04 14:08:54 INFO  Log:26 - Submitting webform
+2020-08-04 14:08:54 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-04 14:08:55 INFO  Log:26 - Submitting webform
+2020-08-04 14:08:55 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 7
+2020-08-04 14:08:55 INFO  Log:19 - *************************************************************************
+2020-08-04 14:08:55 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:08:55 INFO  Log:21 - *************************************************************************
+2020-08-04 14:08:56 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2020-08-04 14:08:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2020-08-04 14:08:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2020-08-04 14:08:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-04 14:08:56 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-04 14:09:22 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2020-08-04 14:09:22 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2020-08-04 14:09:22 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2020-08-04 14:09:22 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-04 14:09:22 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-04 14:09:37 INFO  Log:26 - ************Setup Test Data Excel**********
+2020-08-04 14:09:39 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:09:39 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:09:40 DEBUG ResolutionCache:183 - Resolution firefox=78 in cache (valid until 14:08:41 05/08/2020 CEST)
+2020-08-04 14:09:40 INFO  WebDriverManager:571 - Using geckodriver 0.26.0 (since Firefox 78 is installed in your machine)
+2020-08-04 14:09:40 TRACE CacheHandler:81 - Checking if geckodriver exists in cache
+2020-08-04 14:09:40 TRACE CacheHandler:66 - Filter cache by geckodriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:09:40 TRACE CacheHandler:66 - Filter cache by 0.26.0 -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:09:40 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:09:40 DEBUG WebDriverManager:520 - Driver geckodriver 0.26.0 found in cache
+2020-08-04 14:09:40 INFO  WebDriverManager:615 - Exporting webdriver.gecko.driver as /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver
+2020-08-04 14:09:48 INFO  Log:12 - **************************************************************************
+2020-08-04 14:09:48 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:09:48 INFO  Log:14 - **************************************************************************
+2020-08-04 14:09:48 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-04 14:09:48 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-04 14:09:48 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-04 14:09:48 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-04 14:09:48 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-04 14:09:49 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-04 14:09:49 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-04 14:09:51 INFO  Log:26 - Submitting webform
+2020-08-04 14:09:51 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-04 14:10:22 INFO  Log:12 - **************************************************************************
+2020-08-04 14:10:22 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:10:22 INFO  Log:14 - **************************************************************************
+2020-08-04 14:10:22 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-04 14:10:22 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-04 14:10:22 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-04 14:10:22 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-04 14:10:22 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-04 14:10:22 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-04 14:10:22 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-04 14:10:24 INFO  Log:26 - Submitting webform
+2020-08-04 14:10:24 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-04 14:10:55 INFO  Log:12 - **************************************************************************
+2020-08-04 14:10:55 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_002    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:10:55 INFO  Log:14 - **************************************************************************
+2020-08-04 14:10:55 INFO  Log:26 - Firstname picked from Excel row number 5
+2020-08-04 14:10:55 INFO  Log:26 - Lastname picked from Excel row number 5
+2020-08-04 14:10:55 INFO  Log:26 - Jobtitle picked from Excel row number 5
+2020-08-04 14:10:55 INFO  Log:26 - Education radio-button picked from Excel row number 5
+2020-08-04 14:10:56 INFO  Log:26 - Gender radio-button picked from Excel row number 5
+2020-08-04 14:10:56 INFO  Log:26 - Years of experience radio-button picked from Excel row number 5
+2020-08-04 14:10:56 INFO  Log:26 - Typing date from Excel row number 5
+2020-08-04 14:11:01 INFO  Log:26 - Submitting webform
+2020-08-04 14:11:01 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 5
+2020-08-04 14:13:55 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:13:55 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:13:56 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:13:56 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:13:56 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:13:56 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:13:56 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:13:56 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:13:56 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:13:56 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:13:56 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:13:56 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:13:56 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:13:56 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:13:56 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:13:56 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:13:56 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:13:56 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:13:56 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:13:56 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:15:53 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:15:53 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:15:54 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:15:54 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:15:54 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:15:54 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:15:54 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:15:54 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:15:54 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:15:54 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:15:54 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:15:54 DEBUG ResolutionCache:183 - Resolution firefox=78 in cache (valid until 14:08:41 05/08/2020 CEST)
+2020-08-04 14:15:54 INFO  WebDriverManager:571 - Using geckodriver 0.26.0 (since Firefox 78 is installed in your machine)
+2020-08-04 14:15:54 TRACE CacheHandler:81 - Checking if geckodriver exists in cache
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by geckodriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by 0.26.0 -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:15:54 DEBUG WebDriverManager:520 - Driver geckodriver 0.26.0 found in cache
+2020-08-04 14:15:54 INFO  WebDriverManager:615 - Exporting webdriver.gecko.driver as /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver
+2020-08-04 14:15:54 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:15:54 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:15:54 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:15:54 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:15:54 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:15:54 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:18:01 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:18:01 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:18:02 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:18:02 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:18:02 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:18:02 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:18:02 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:18:02 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:18:02 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:18:02 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:18:02 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:18:02 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:18:02 DEBUG ResolutionCache:183 - Resolution firefox=78 in cache (valid until 14:08:41 05/08/2020 CEST)
+2020-08-04 14:18:02 INFO  WebDriverManager:571 - Using geckodriver 0.26.0 (since Firefox 78 is installed in your machine)
+2020-08-04 14:18:02 TRACE CacheHandler:81 - Checking if geckodriver exists in cache
+2020-08-04 14:18:02 TRACE CacheHandler:66 - Filter cache by geckodriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:18:02 TRACE CacheHandler:66 - Filter cache by 0.26.0 -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:18:02 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] -- output list [/Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver] 
+2020-08-04 14:18:02 DEBUG WebDriverManager:520 - Driver geckodriver 0.26.0 found in cache
+2020-08-04 14:18:02 INFO  WebDriverManager:615 - Exporting webdriver.gecko.driver as /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver
+2020-08-04 14:24:09 INFO  Log:26 - ************Setup Test Data Excel**********
+2020-08-04 14:24:11 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-04 14:24:11 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-04 14:24:12 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 14:02:51 05/08/2020 CEST)
+2020-08-04 14:24:12 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-04 14:24:12 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-04 14:24:12 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:24:12 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:24:12 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-04 14:24:12 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-04 14:24:12 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-04 14:24:18 INFO  Log:12 - **************************************************************************
+2020-08-04 14:24:18 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:24:18 INFO  Log:14 - **************************************************************************
+2020-08-04 14:24:18 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-04 14:24:18 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-04 14:24:18 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-04 14:24:18 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-04 14:24:18 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-04 14:24:18 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-04 14:24:19 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-04 14:24:19 INFO  Log:26 - Submitting webform
+2020-08-04 14:24:19 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-04 14:24:19 INFO  Log:19 - *************************************************************************
+2020-08-04 14:24:19 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:24:19 INFO  Log:21 - *************************************************************************
+2020-08-04 14:24:20 INFO  Log:12 - **************************************************************************
+2020-08-04 14:24:20 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_002    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:24:20 INFO  Log:14 - **************************************************************************
+2020-08-04 14:24:20 INFO  Log:26 - Firstname picked from Excel row number 5
+2020-08-04 14:24:20 INFO  Log:26 - Lastname picked from Excel row number 5
+2020-08-04 14:24:20 INFO  Log:26 - Jobtitle picked from Excel row number 5
+2020-08-04 14:24:20 INFO  Log:26 - Education radio-button picked from Excel row number 5
+2020-08-04 14:24:20 INFO  Log:26 - Gender radio-button picked from Excel row number 5
+2020-08-04 14:24:21 INFO  Log:26 - Years of experience radio-button picked from Excel row number 5
+2020-08-04 14:24:21 INFO  Log:26 - Typing date from Excel row number 5
+2020-08-04 14:24:24 INFO  Log:26 - Submitting webform
+2020-08-04 14:24:24 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 5
+2020-08-04 14:24:24 INFO  Log:19 - *************************************************************************
+2020-08-04 14:24:24 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:24:24 INFO  Log:21 - *************************************************************************
+2020-08-04 14:24:25 INFO  Log:12 - **************************************************************************
+2020-08-04 14:24:25 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_003    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-04 14:24:25 INFO  Log:14 - **************************************************************************
+2020-08-04 14:24:25 INFO  Log:26 - Firstname picked from Excel row number 7
+2020-08-04 14:24:25 INFO  Log:26 - Lastname picked from Excel row number 7
+2020-08-04 14:24:25 INFO  Log:26 - Jobtitle picked from Excel row number 7
+2020-08-04 14:24:28 INFO  Log:26 - Submitting webform
+2020-08-04 14:24:28 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 7
+2020-08-04 14:24:29 INFO  Log:19 - *************************************************************************
+2020-08-04 14:24:29 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-04 14:24:29 INFO  Log:21 - *************************************************************************
+2020-08-04 14:24:29 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2020-08-04 14:24:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2020-08-04 14:24:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2020-08-04 14:24:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-04 14:24:29 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-06 15:28:36 INFO  Log:26 - ************Setup Test Data Excel**********
+2020-08-06 15:28:39 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-06 15:28:39 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-06 15:28:40 DEBUG ResolutionCache:158 - Removing resolution chrome=84 from cache (expired on Wed Aug 05 14:02:51 CEST 2020)
+2020-08-06 15:28:41 DEBUG Shell:54 - Running command on the shell: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --version]
+2020-08-06 15:28:41 DEBUG Shell:56 - Result: Google Chrome 84.0.4147.105
+2020-08-06 15:28:41 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-06 15:28:41 DEBUG ResolutionCache:122 - Storing resolution chrome=84 in cache (valid until 15:28:41 07/08/2020 CEST)
+2020-08-06 15:28:41 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-06 15:28:41 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:28:41 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:28:41 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:28:41 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-06 15:28:41 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-06 15:28:51 INFO  Log:12 - **************************************************************************
+2020-08-06 15:28:51 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-06 15:28:51 INFO  Log:14 - **************************************************************************
+2020-08-06 15:28:51 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-06 15:28:51 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-06 15:28:51 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-06 15:28:52 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-06 15:28:52 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-06 15:28:52 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-06 15:28:52 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-06 15:28:53 INFO  Log:26 - Submitting webform
+2020-08-06 15:28:53 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-06 15:28:53 INFO  Log:19 - *************************************************************************
+2020-08-06 15:28:53 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-06 15:28:53 INFO  Log:21 - *************************************************************************
+2020-08-06 15:28:54 INFO  Log:12 - **************************************************************************
+2020-08-06 15:28:54 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_002    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-06 15:28:54 INFO  Log:14 - **************************************************************************
+2020-08-06 15:28:54 INFO  Log:26 - Firstname picked from Excel row number 5
+2020-08-06 15:28:54 INFO  Log:26 - Lastname picked from Excel row number 5
+2020-08-06 15:28:55 INFO  Log:26 - Jobtitle picked from Excel row number 5
+2020-08-06 15:28:55 INFO  Log:26 - Education radio-button picked from Excel row number 5
+2020-08-06 15:28:55 INFO  Log:26 - Gender radio-button picked from Excel row number 5
+2020-08-06 15:28:55 INFO  Log:26 - Years of experience radio-button picked from Excel row number 5
+2020-08-06 15:28:55 INFO  Log:26 - Typing date from Excel row number 5
+2020-08-06 15:28:59 INFO  Log:26 - Submitting webform
+2020-08-06 15:28:59 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 5
+2020-08-06 15:28:59 INFO  Log:19 - *************************************************************************
+2020-08-06 15:28:59 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-06 15:28:59 INFO  Log:21 - *************************************************************************
+2020-08-06 15:29:00 INFO  Log:12 - **************************************************************************
+2020-08-06 15:29:00 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_003    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-06 15:29:00 INFO  Log:14 - **************************************************************************
+2020-08-06 15:29:00 INFO  Log:26 - Firstname picked from Excel row number 7
+2020-08-06 15:29:00 INFO  Log:26 - Lastname picked from Excel row number 7
+2020-08-06 15:29:00 INFO  Log:26 - Jobtitle picked from Excel row number 7
+2020-08-06 15:29:03 INFO  Log:26 - Submitting webform
+2020-08-06 15:29:03 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 7
+2020-08-06 15:29:04 INFO  Log:19 - *************************************************************************
+2020-08-06 15:29:04 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-06 15:29:04 INFO  Log:21 - *************************************************************************
+2020-08-06 15:29:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2020-08-06 15:29:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2020-08-06 15:29:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2020-08-06 15:29:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-06 15:29:04 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-06 15:30:46 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-06 15:30:46 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-06 15:30:47 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 15:28:41 07/08/2020 CEST)
+2020-08-06 15:30:47 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-06 15:30:48 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-06 15:30:48 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:30:48 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:30:48 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:30:48 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-06 15:30:48 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-06 15:31:25 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-06 15:31:25 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-06 15:31:27 DEBUG ResolutionCache:183 - Resolution chrome=84 in cache (valid until 15:28:41 07/08/2020 CEST)
+2020-08-06 15:31:27 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-06 15:31:27 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-06 15:31:27 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:31:27 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:31:27 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-06 15:31:27 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-06 15:31:27 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-12 19:11:44 INFO  Log:26 - ************Setup Test Data Excel**********
+2020-08-12 19:11:46 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-12 19:11:46 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2020-08-12 19:11:47 DEBUG ResolutionCache:158 - Removing resolution chrome=84 from cache (expired on Fri Aug 07 15:28:41 CEST 2020)
+2020-08-12 19:11:47 DEBUG Shell:54 - Running command on the shell: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --version]
+2020-08-12 19:11:48 DEBUG Shell:56 - Result: Google Chrome 84.0.4147.105
+2020-08-12 19:11:48 INFO  WebDriverManager:571 - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-12 19:11:48 DEBUG ResolutionCache:122 - Storing resolution chrome=84 in cache (valid until 19:11:48 13/08/2020 CEST)
+2020-08-12 19:11:48 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2020-08-12 19:11:48 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver, /Users/bells/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-12 19:11:48 TRACE CacheHandler:66 - Filter cache by 84.0.4147.30 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-12 19:11:48 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver] 
+2020-08-12 19:11:48 DEBUG WebDriverManager:520 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-12 19:11:48 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+2020-08-12 19:11:52 INFO  Log:26 - Chrome browser started
+2020-08-12 19:11:54 INFO  Log:26 - Navigating to URL
+2020-08-12 19:11:55 INFO  Log:12 - **************************************************************************
+2020-08-12 19:11:55 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-12 19:11:55 INFO  Log:14 - **************************************************************************
+2020-08-12 19:11:56 INFO  Log:26 - Firstname picked from Excel row number 1
+2020-08-12 19:11:56 INFO  Log:26 - Lastname picked from Excel row number 1
+2020-08-12 19:11:56 INFO  Log:26 - Jobtitle picked from Excel row number 1
+2020-08-12 19:11:56 INFO  Log:26 - Education radio-button picked from Excel row number 1
+2020-08-12 19:11:56 INFO  Log:26 - Gender radio-button picked from Excel row number 1
+2020-08-12 19:11:56 INFO  Log:26 - Years of experience radio-button picked from Excel row number 1
+2020-08-12 19:11:56 INFO  Log:26 - Typing date from Excel row number 1
+2020-08-12 19:11:57 INFO  Log:26 - Submitting webform
+2020-08-12 19:11:57 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 1
+2020-08-12 19:11:57 INFO  Log:19 - *************************************************************************
+2020-08-12 19:11:57 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-12 19:11:57 INFO  Log:21 - *************************************************************************
+2020-08-12 19:11:58 INFO  Log:26 - Navigating to URL
+2020-08-12 19:11:58 INFO  Log:12 - **************************************************************************
+2020-08-12 19:11:58 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_002    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-12 19:11:58 INFO  Log:14 - **************************************************************************
+2020-08-12 19:11:58 INFO  Log:26 - Firstname picked from Excel row number 5
+2020-08-12 19:11:58 INFO  Log:26 - Lastname picked from Excel row number 5
+2020-08-12 19:11:58 INFO  Log:26 - Jobtitle picked from Excel row number 5
+2020-08-12 19:11:58 INFO  Log:26 - Education radio-button picked from Excel row number 5
+2020-08-12 19:11:58 INFO  Log:26 - Gender radio-button picked from Excel row number 5
+2020-08-12 19:11:58 INFO  Log:26 - Years of experience radio-button picked from Excel row number 5
+2020-08-12 19:11:59 INFO  Log:26 - Typing date from Excel row number 5
+2020-08-12 19:12:02 INFO  Log:26 - Submitting webform
+2020-08-12 19:12:02 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 5
+2020-08-12 19:12:02 INFO  Log:19 - *************************************************************************
+2020-08-12 19:12:02 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-12 19:12:02 INFO  Log:21 - *************************************************************************
+2020-08-12 19:12:02 INFO  Log:26 - Navigating to URL
+2020-08-12 19:12:03 INFO  Log:12 - **************************************************************************
+2020-08-12 19:12:03 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_003    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-08-12 19:12:03 INFO  Log:14 - **************************************************************************
+2020-08-12 19:12:03 INFO  Log:26 - Firstname picked from Excel row number 7
+2020-08-12 19:12:03 INFO  Log:26 - Lastname picked from Excel row number 7
+2020-08-12 19:12:03 INFO  Log:26 - Jobtitle picked from Excel row number 7
+2020-08-12 19:12:06 INFO  Log:26 - Submitting webform
+2020-08-12 19:12:06 INFO  Log:26 - Set status PASSED/FAILED to column number 8 and row number 7
+2020-08-12 19:12:06 INFO  Log:19 - *************************************************************************
+2020-08-12 19:12:06 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2020-08-12 19:12:06 INFO  Log:21 - *************************************************************************
+2020-08-12 19:12:06 INFO  Log:26 - Closing the browser
+2020-08-12 19:12:06 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2020-08-12 19:12:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2020-08-12 19:12:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2020-08-12 19:12:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-12 19:12:06 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

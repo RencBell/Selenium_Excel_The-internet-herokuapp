@@ -15,7 +15,15 @@
         </classes>
     </test>
 
-    <test name="MultiplePageTests" enabled="false">
+    <test name="WebformTestWithFirefox" enabled="false">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="formy.WebformTests">
+            </class>
+        </classes>
+    </test>
+
+    <test name="MultiplePageTestWithChrome" enabled="false">
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="theInternet.MultiplePageTests">
@@ -23,10 +31,10 @@
         </classes>
     </test>
 
-    <test name="WebformTestWithFirefox" enabled="false">
+    <test name="MultiplePageTestWithFirefox" enabled="false">
         <parameter name="browser" value="Firefox"/>
         <classes>
-            <class name="formy.WebformTests">
+            <class name="theInternet.MultiplePageTests">
             </class>
         </classes>
     </test>

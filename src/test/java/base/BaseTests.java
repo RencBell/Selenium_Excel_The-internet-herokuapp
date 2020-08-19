@@ -36,10 +36,12 @@ public class BaseTests {
             //   WebDriverManager.chromedriver().setup();
             WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
             driver = new ChromeDriver();
+            utility.Log.info("Chrome browser started");
         } else if (browser.equals("Firefox")) {
             //   WebDriverManager.chromedriver().setup();
             WebDriverManager.getInstance(DriverManagerType.FIREFOX).setup();
             driver = new FirefoxDriver();
+            utility.Log.info("Mozilla browser started");
         } else {
             throw new Exception("Incorrect browser");
         }
@@ -50,6 +52,7 @@ public class BaseTests {
     public void goTo() {
         driver.get("https://formy-project.herokuapp.com/form");
         //driver.get("https://the-internet.herokuapp.com/");
+        utility.Log.info("Navigating to URL");
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -60,6 +63,7 @@ public class BaseTests {
 
     @AfterClass(description = "Class Level Teardown")
     public void teardown() {
+        utility.Log.info("Closing the browser");
         driver.quit();
     }
 

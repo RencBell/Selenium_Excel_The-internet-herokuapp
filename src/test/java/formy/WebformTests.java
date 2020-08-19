@@ -23,6 +23,7 @@ public class WebformTests extends BaseTests {
     public void fill_webform_with_valid_data() {
         Log.startTestCase("Starting Selenium TestCase_001");
 
+        //*************SET DESCRIPTION IN EXTENTTESTREPORT*************
         ExtentTestManager.getTest().setDescription("Fill in the webform with valid data");
 
         //*************PAGE INSTANTIATIONS*************
