@@ -2,6 +2,7 @@
 Selenium Demo
 
 Data-driven testing
+
 Externt Report
 
 Testing URL: https://the-internet.herokuapp.com/
