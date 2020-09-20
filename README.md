@@ -1,5 +1,5 @@
-# The-internet-herokuapp
-Selenium Demo
+# Selenium demo - https://the-internet.herokuapp.com #
+Texas Automation University
 
 Data-driven testing
 
