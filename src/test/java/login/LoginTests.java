@@ -3,16 +3,15 @@ package login;
 import base.BaseTests;
 import static org.testng.Assert.*;
 
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pageObjects.LoginPage;
+import pageObjects.FormAuthenticationPage;
 import pageObjects.SecureAreaPage;
 
 public class LoginTests extends BaseTests {
 
     @Test
     public void testSuccesfullLogin() {
-        LoginPage loginPage = homePage.clickFormAuthenticationLink();
+        FormAuthenticationPage loginPage = homePage.clickFormAuthenticationLink();
         loginPage.setUsername("tomsmith");
         loginPage.setPassword("SuperSecretPassword!");
 
@@ -22,7 +21,7 @@ public class LoginTests extends BaseTests {
 
     @Test
     public void testUnsuccessfullLogin() {
-        LoginPage loginPage = homePage.clickFormAuthenticationLink();
+        FormAuthenticationPage loginPage = homePage.clickFormAuthenticationLink();
         loginPage.setUsername("smithtom");
         loginPage.setPassword("SuperSecretPassword!Not");
         loginPage.clickLoginButton();

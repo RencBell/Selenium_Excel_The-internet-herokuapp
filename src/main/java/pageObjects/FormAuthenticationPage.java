@@ -3,16 +3,16 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage {
+public class FormAuthenticationPage {
 
     private final WebDriver driver;
 
     private final By usernameField = By.xpath("//input[@id='username']");
     private final By passwordField = By.xpath("//input[@id='password']");
     private final By loginButton = By.xpath("//i[@class='fa fa-2x fa-sign-in']");
-    private final By alertText = By.xpath("//div[contains(text(),'Your username is invalid!')]");
+    private final By alertText = By.id("flash");
 
-    public LoginPage(WebDriver driver) {
+    public FormAuthenticationPage(WebDriver driver) {
         this.driver = driver;
     }
 

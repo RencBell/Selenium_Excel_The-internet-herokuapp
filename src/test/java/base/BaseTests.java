@@ -47,8 +47,8 @@ public class BaseTests {
 
     @BeforeMethod
     public void goTo() {
-        driver.get("https://formy-project.herokuapp.com/form");
-        // driver.get("https://the-internet.herokuapp.com/");
+        // driver.get("https://formy-project.herokuapp.com/form");
+        driver.get("https://the-internet.herokuapp.com/");
         utility.Log.info("Navigating to URL");
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();

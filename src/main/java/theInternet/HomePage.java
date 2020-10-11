@@ -22,9 +22,9 @@ public class HomePage {
         this.driver = driver;
     }
 
-    public LoginPage clickFormAuthenticationLink() {
+    public FormAuthenticationPage clickFormAuthenticationLink() {
         driver.findElement(formAuthenticationLink).click();
-        return new LoginPage(driver);
+        return new FormAuthenticationPage(driver);
     }
 
     public MultipleWindowsPage clickMultipleWindowsLink() {

@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestSuite" thread-count="2" parallel="tests">
 
-    <listeners>
+ <!--   <listeners>
         <listener class-name="listeners.TestListener"/>
         <listener class-name="listeners.AnnotationTransformer"/>
-    </listeners>
+    </listeners>-->
 
-    <test name="WebformTestWithChrome" enabled="true">
+    <test name="WebformTestWithChrome" enabled="false">
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="formyTests.WebformTests">
@@ -45,10 +45,10 @@
         </classes>
     </test>
 
-    <test name="PageObjectsTest" enabled="false">
+    <test name="PageObjectsTest" enabled="true">
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="pageObjectsTests.SecureAreaTest">
+            <class name="pageObjectsTests.FormAuthenticationTest">
                 <!--   <methods>
                        <include name = "clickAlertPopup"/> //Running a single @Test
                    </methods>-->
