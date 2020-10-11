@@ -1,7 +1,9 @@
-# The-internet-herokuapp
-Selenium Demo
+# Selenium demo #
 
 Data-driven testing
 
-URL: https://the-internet.herokuapp.com/
-URL: https://formyTests-project.herokuapp.com/form
+Externt Report
+
+Testing URL: https://the-internet.herokuapp.com/
+
+Testing URL: https://formy-project.herokuapp.com/form (DataProviderTest)
