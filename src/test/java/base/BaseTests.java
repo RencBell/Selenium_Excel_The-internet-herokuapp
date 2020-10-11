@@ -7,10 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import theInternet.HomePage;
 import utils.WindowManager;
 
@@ -51,7 +48,7 @@ public class BaseTests {
     @BeforeMethod
     public void goTo() {
         driver.get("https://formy-project.herokuapp.com/form");
-        //driver.get("https://the-internet.herokuapp.com/");
+        // driver.get("https://the-internet.herokuapp.com/");
         utility.Log.info("Navigating to URL");
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
@@ -71,7 +68,8 @@ public class BaseTests {
         return new WindowManager(driver);
     }
 
-    /*@AfterMethod
+    //*************TAKES SCREENSHOT ON FAILED TEST*************
+/*    @AfterMethod
     public void recordFailure(ITestResult result) {
         if (ITestResult.FAILURE == result.getStatus()) {
             TakesScreenshot ts = (TakesScreenshot) driver;
@@ -81,5 +79,6 @@ public class BaseTests {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }*/
+        }
+    }*/
 }

@@ -1,6 +1,7 @@
 package utility;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -70,6 +71,7 @@ public class ExcelUtil {
             FileInputStream ExcelFile = new FileInputStream(testDataExcelPath + testDataExcelFileName);
             excelWBook = new XSSFWorkbook(ExcelFile);
             excelWSheet = excelWBook.getSheet(sheetName);
+            //      excelWSheet = excelWBook.getSheetAt(0);
         } catch (Exception e) {
             try {
                 throw (e);
@@ -125,5 +127,32 @@ public class ExcelUtil {
                 e1.printStackTrace();
             }
         }
+
+/*        int rowCount = excelWSheet.getPhysicalNumberOfRows();
+
+        for (int i = 0; i < rowCount; i++) {
+            XSSFRow row = excelWSheet.getRow(i);
+
+            int cellCount = row.getPhysicalNumberOfCells();
+            for (int j = 0; j < cellCount; j++) {
+                XSSFCell cell = row.getCell(j);
+                String cellValue = cell.getStringCellValue();
+                System.out.println("||" + cellValue);
+            }
+            System.out.println();
+        }
+    }
+
+    public static String getCellValue(XSSFCell cell) {
+        switch (cell.getCellType()) {
+            case NUMERIC:
+                return String.valueOf(cell.getNumericCellValue());
+            case BOOLEAN:
+                return String.valueOf(cell.getBooleanCellValue());
+            case STRING:
+                return cell.getStringCellValue();
+            default:
+                return cell.getStringCellValue();
+        }*/
     }
 }

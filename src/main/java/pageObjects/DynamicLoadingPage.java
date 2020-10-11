@@ -8,14 +8,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DynamicLoadingPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
-    private By hiddenElement = By.xpath("//a[@href='/dynamic_loading/1']");
-    private By renderedElement = By.xpath("//a[@href='/dynamic_loading/2']");
-    private By start = By.xpath("//div[@id='start']/button[.='Start']");
-    private By start2 = By.xpath("//div[@id='start']/button[.='Start']");
-
-    private By verifyLoadingPage = By.xpath("//div[@id='finish']/h4[.='Hello World!']");
+    private final By hiddenElement = By.xpath("//a[@href='/dynamic_loading/1']");
+    private final By renderedElement = By.xpath("//a[@href='/dynamic_loading/2']");
+    private final By start = By.xpath("//div[@id='start']/button[.='Start']");
+    private final By start2 = By.xpath("//div[@id='start']/button[.='Start']");
+    private final By verifyLoadingPage = By.xpath("//div[@id='finish']/h4[.='Hello World!']");
 
     public DynamicLoadingPage(WebDriver driver) {
         this.driver = driver;

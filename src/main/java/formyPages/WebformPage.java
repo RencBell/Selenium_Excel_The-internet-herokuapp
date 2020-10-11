@@ -32,15 +32,15 @@ public class WebformPage extends BasePage {
     //private final static String VERIFIERA_SENASTE_ANNONS_HAR_PUBLICERATS_XPATH = "//div[@class='alert alert-success']";
 
     public void typeFirstname(XSSFRow row) {
-        writeText((firstnameField), row.getCell(1).toString());
+        type((firstnameField), row.getCell(1).toString());
     }
 
     public void typeLastName(XSSFRow row) {
-        writeText((lastnameField), row.getCell(2).toString());
+        type((lastnameField), row.getCell(2).toString());
     }
 
     public void typeJobTitle(XSSFRow row) {
-        writeText((jobTitle), row.getCell(3).toString());
+        type((jobTitle), row.getCell(3).toString());
     }
 
     public void clickEducationRadioButton(XSSFRow row, String education) {
@@ -78,11 +78,11 @@ public class WebformPage extends BasePage {
     }
 
     public void typeDate(XSSFRow row) {
-        writeText((dateCalendar), row.getCell(7).toString());
+        type((dateCalendar), row.getCell(7).toString());
     }
 
     public void clickSubmit() {
-        //Scrolling down to the page and clicking on Submit
+        //Scrolling down to the page and click on Submit
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("scroll(0, 1000)");
         driver.findElement(submitForm).click();

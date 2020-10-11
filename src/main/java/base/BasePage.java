@@ -4,28 +4,28 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage {
-    public WebDriver driver;
-    public WebDriverWait wait;
+public abstract class BasePage {
+    protected WebDriver driver;
+    protected WebDriverWait wait;
 
     //Constructor
-    public BasePage(WebDriver driver, WebDriverWait wait){
+    protected BasePage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
     }
 
     //Click Method
-    public void click(By elementLocation, String s) {
+    protected void click(By elementLocation, String s) {
         driver.findElement(elementLocation).click();
     }
 
     //Write Text
-    public void writeText (By elementLocation, String text) {
+    protected void type(By elementLocation, String text) {
         driver.findElement(elementLocation).sendKeys(text);
     }
 
     //Read Text
-    public String readText (By elementLocation) {
+    protected String readText(By elementLocation) {
         return driver.findElement(elementLocation).getText();
     }
 }

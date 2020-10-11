@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class WindowManager {
 
-    private WebDriver driver;
+    private final WebDriver driver;
     private WebDriver.Navigation navigate;
 
     public WindowManager(WebDriver driver) {

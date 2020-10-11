@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2" parallel="tests">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="WebformTestWithChrome" enabled="true">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="formyTests.WebformTests">
+                <!--  <methods>
+                      <include name="fill_webform_with_invalid_data"/> //Running a single @Test
+                  </methods>-->
+            </class>
+        </classes>
+    </test>
+
+    <test name="WebformTestWithFirefox" enabled="false">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="formyTests.WebformTests">
+            </class>
+        </classes>
+    </test>
+
+    <test name="EntirePageTest" enabled="false">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="pageObjectsTests.EntirePageTest">
+                <!--   <methods>
+                       <include name = "clickAlertPopup"/> //Running a single @Test
+                   </methods>-->
+            </class>
+        </classes>
+    </test>
+
+    <test name="EntirePageTest" enabled="false">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="pageObjectsTests.EntirePageTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="PageObjectsTest" enabled="false">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="pageObjectsTests.SecureAreaTest">
+                <!--   <methods>
+                       <include name = "clickAlertPopup"/> //Running a single @Test
+                   </methods>-->
+            </class>
+        </classes>
+    </test>
+
+</suite>

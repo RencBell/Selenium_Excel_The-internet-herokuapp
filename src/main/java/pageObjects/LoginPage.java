@@ -5,12 +5,12 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
 
-    private WebDriver driver;
-    private By usernameField = By.xpath("//input[@id='username']");
-    private By passwordField = By.xpath("//input[@id='password']");
-    private By loginButton = By.xpath("//i[@class='fa fa-2x fa-sign-in']");
+    private final WebDriver driver;
 
-    private By alertText = By.xpath("//div[contains(text(),'Your username is invalid!')]");
+    private final By usernameField = By.xpath("//input[@id='username']");
+    private final By passwordField = By.xpath("//input[@id='password']");
+    private final By loginButton = By.xpath("//i[@class='fa fa-2x fa-sign-in']");
+    private final By alertText = By.xpath("//div[contains(text(),'Your username is invalid!')]");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;

@@ -8,8 +8,9 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ContextMenuPage {
 
-    WebDriver driver;
-    private final By rightClickMenu = By.xpath("//div[@id='hot-spot']");
+    private final WebDriver driver;
+
+    private final By rightClickMenu = By.id("hot-spot");
 
     public ContextMenuPage(WebDriver driver) {
         this.driver = driver;
@@ -17,7 +18,7 @@ public class ContextMenuPage {
 
     public void rightClickOnBox() {
         Actions actions = new Actions(driver);
-        WebElement elementLocator = driver.findElement(By.id("hot-spot"));
+        WebElement elementLocator = driver.findElement(rightClickMenu);
         actions.contextClick(elementLocator).perform();
         Alert alert=driver.switchTo().alert();
         alert.accept();
