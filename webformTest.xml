@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestSuite" thread-count="2" parallel="tests">
 
- <!--   <listeners>
-        <listener class-name="listeners.TestListener"/>
+    <listeners>
+        <listener class-name="listeners.TestListener"/> <!-- THIS SINGLE CODE IS NEEDED FOR EXCEL REPORTING !-->
         <listener class-name="listeners.AnnotationTransformer"/>
-    </listeners>-->
+    </listeners>
 
     <test name="WebformTestWithChrome" enabled="false">
         <parameter name="browser" value="Chrome"/>
@@ -26,7 +26,7 @@
         </classes>
     </test>
 
-    <test name="EntirePageTest" enabled="false">
+    <test name="EntirePageTest" enabled="true">
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="pageObjectsTests.EntirePageTest">
@@ -45,7 +45,7 @@
         </classes>
     </test>
 
-    <test name="PageObjectsTest" enabled="true">
+    <test name="PageObjectsTest" enabled="false">
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="pageObjectsTests.FormAuthenticationTest">

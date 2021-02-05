@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="selenium_automation" />
         <module name="seleniumDemo" />
+        <module name="Selenium_Excel_The-internet-herokuapp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="15" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package linksAndImages;
 
-import base.BaseTests;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -22,6 +22,8 @@ public class FindAllBrokenImagesTest {
 
     @BeforeClass
     public void setUp() {
+
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         utility.Log.info("Chrome browser started");
         utility.Log.info("Navigating to URL");

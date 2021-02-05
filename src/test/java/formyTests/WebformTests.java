@@ -19,7 +19,7 @@ public class WebformTests extends BaseTests {
         ExcelUtil.setExcelFileSheet("Credentials2");
     }
 
-    @Test(priority = 1, description = "Happy Case")
+    @Test(priority = 1, description = "Happy Test Case")
     public void fill_webform_with_valid_data() {
         Log.startTestCase("Starting Selenium TestCase_001");
 
@@ -52,7 +52,7 @@ public class WebformTests extends BaseTests {
         Log.endTestCase("Ending Selenium TestCase_001");
     }
 
-    @Test(priority = 2, description = "Negative Case")
+    @Test(priority = 2, description = "Negative Test Case")
     public void fill_webform_with_invalid_data() throws InterruptedException {
         Log.startTestCase("Starting Selenium TestCase_002");
 
@@ -86,7 +86,7 @@ public class WebformTests extends BaseTests {
         Log.endTestCase("Ending Selenium TestCase 002");
     }
 
-    @Test(priority = 3, description = "Negative Case")
+    @Test(priority = 3, description = "Negative Test Case")
     public void fill_webform_with_empty_data() throws InterruptedException {
         Log.startTestCase("Starting Selenium TestCase_003");
 

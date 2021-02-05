@@ -28,7 +28,8 @@ public class BaseTests {
 
     @BeforeClass(description = "Browser setup")
     @Parameters("browser")
-    public void setUp(String browser) throws Exception {
+    public void setUpBrowser(String browser) throws Exception {
+
         if (browser.equals("Chrome")) {
             //   WebDriverManager.chromedriver().setup();
             WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
@@ -47,7 +48,7 @@ public class BaseTests {
 
     @BeforeMethod
     public void goTo() {
-        // driver.get("https://formy-project.herokuapp.com/form");
+         //driver.get("https://formy-project.herokuapp.com/form");
         driver.get("https://the-internet.herokuapp.com/");
         utility.Log.info("Navigating to URL");
         driver.manage().deleteAllCookies();
