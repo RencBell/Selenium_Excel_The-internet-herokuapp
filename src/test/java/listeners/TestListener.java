@@ -67,7 +67,9 @@ public class TestListener extends BaseTests implements ITestListener {
         ExtentTestManager.getTest().log(LogStatus.PASS, "Test passed");
 
         //Update the test result on excel sheet
-        ExcelUtil.setCellData("PASSED", ExcelUtil.getRowNumber(), ExcelUtil.getColumnNumber());
+        //Use this method if you wanna see the test result in Excel sheet
+
+      //  ExcelUtil.setCellData("PASSED", ExcelUtil.getRowNumber(), ExcelUtil.getColumnNumber());
     }
 
     @Override
@@ -96,7 +98,9 @@ public class TestListener extends BaseTests implements ITestListener {
                 ExtentTestManager.getTest().addBase64ScreenShot(base64Screenshot));
 
         //Update the test result on excel sheet
-        ExcelUtil.setCellData("FAILED", ExcelUtil.getRowNumber(), ExcelUtil.getColumnNumber());
+        //Use this method if you wanna see the test result in Excel sheet
+
+        //   ExcelUtil.setCellData("FAILED", ExcelUtil.getRowNumber(), ExcelUtil.getColumnNumber());
     }
 
     @Override
@@ -106,7 +110,9 @@ public class TestListener extends BaseTests implements ITestListener {
         ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
 
         //Update the test result on excel sheet
-        ExcelUtil.setCellData("SKIPPED", ExcelUtil.getRowNumber(), ExcelUtil.getColumnNumber());
+        //Use this method if you wanna see the test result in Excel sheet
+
+        //   ExcelUtil.setCellData("SKIPPED", ExcelUtil.getRowNumber(), ExcelUtil.getColumnNumber());
     }
 
     @Override

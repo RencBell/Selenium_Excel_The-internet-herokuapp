@@ -29,12 +29,14 @@ public class BrokenLinks {
     }
 
     @AfterClass
-    public void tearDown() { driver.quit(); }
+    public void tearDown() {
+        driver.quit();
+    }
 
     @Test
     public void findAllLinks() throws IOException {
         // Find & Get All Links
-        List <WebElement> allLinks = driver.findElements(By.tagName("a"));
+        List<WebElement> allLinks = driver.findElements(By.tagName("a"));
         System.out.println("# Links: " + allLinks.size());
 
         int i = 1;
@@ -52,10 +54,16 @@ public class BrokenLinks {
                 int responseCode = connection.getResponseCode();
                 String responseMessage = connection.getResponseMessage();
 
-                System.out.println(i + ". " + url +
-                        "\n \t" + responseCode + "\n \t" + responseMessage);
-                i++;
-                connection.disconnect();
+                // Get response code & message for: 401 Unauthorized
+                if (responseCode != 200) {
+                    connection.getResponseCode();
+                    connection.disconnect();
+
+                    System.out.println(i + ". " + url +
+                            "\n \t" + responseCode + "\n \t" + responseMessage);
+                    i++;
+                    connection.disconnect();
+                }
             }
         }
     }

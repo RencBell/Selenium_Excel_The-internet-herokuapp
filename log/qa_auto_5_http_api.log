@@ -803,3 +803,220 @@
 2021-02-06 00:35:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
 2021-02-06 00:35:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2021-02-06 00:35:24 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 00:47:31 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 00:47:31 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 00:47:31 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 00:47:31 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 00:47:31 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 00:47:31 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:47:31 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:47:31 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:47:31 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 00:47:31 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 00:47:33 INFO  Log:26 - Chrome browser started
+2021-02-06 00:47:35 INFO  Log:26 - Navigating to URL
+2021-02-06 00:47:39 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2021-02-06 00:47:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2021-02-06 00:47:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2021-02-06 00:47:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-06 00:47:39 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 00:49:53 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 00:49:53 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 00:49:53 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 00:49:53 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 00:49:53 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 00:49:53 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:49:53 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:49:53 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:49:53 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 00:49:53 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 00:49:54 INFO  Log:26 - Chrome browser started
+2021-02-06 00:49:57 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:00 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:03 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:06 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:09 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:12 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:24 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:28 INFO  Log:26 - Navigating to URL
+2021-02-06 00:50:28 INFO  Log:26 - Closing the browser
+2021-02-06 00:53:45 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 00:53:45 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 00:53:45 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 00:53:45 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 00:53:45 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 00:53:45 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:53:45 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:53:45 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:53:45 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 00:53:45 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 00:53:46 INFO  Log:26 - Chrome browser started
+2021-02-06 00:53:51 INFO  Log:26 - Navigating to URL
+2021-02-06 00:53:55 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2021-02-06 00:53:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2021-02-06 00:53:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2021-02-06 00:53:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-06 00:53:55 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 00:55:26 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 00:55:26 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 00:55:26 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 00:55:26 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 00:55:26 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 00:55:26 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:55:26 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:55:26 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:55:26 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 00:55:26 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 00:55:27 INFO  Log:26 - Chrome browser started
+2021-02-06 00:55:32 INFO  Log:26 - Navigating to URL
+2021-02-06 00:55:35 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2021-02-06 00:55:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2021-02-06 00:55:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2021-02-06 00:55:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-06 00:55:35 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 00:56:49 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 00:56:49 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 00:56:49 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 00:56:49 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 00:56:49 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 00:56:49 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:56:49 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:56:49 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:56:49 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 00:56:49 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 00:56:51 INFO  Log:26 - Chrome browser started
+2021-02-06 00:56:54 INFO  Log:26 - Navigating to URL
+2021-02-06 00:56:58 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2021-02-06 00:56:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2021-02-06 00:56:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2021-02-06 00:56:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-06 00:56:58 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 00:59:21 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 00:59:21 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 00:59:21 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 00:59:21 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 00:59:21 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 00:59:21 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:59:21 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:59:21 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 00:59:21 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 00:59:21 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 00:59:23 INFO  Log:26 - Chrome browser started
+2021-02-06 00:59:24 INFO  Log:26 - Navigating to URL
+2021-02-06 00:59:26 INFO  Log:26 - Navigating to URL
+2021-02-06 00:59:27 INFO  Log:26 - Navigating to URL
+2021-02-06 00:59:28 INFO  Log:26 - Closing the browser
+2021-02-06 00:59:28 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2021-02-06 00:59:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2021-02-06 00:59:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2021-02-06 00:59:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-06 00:59:28 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 01:02:33 INFO  Log:26 - ************Setup Test Data Excel**********
+2021-02-06 01:02:34 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 01:02:34 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 01:02:34 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 01:02:34 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 01:02:34 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 01:02:34 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:02:34 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:02:34 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:02:34 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 01:02:34 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 01:02:36 INFO  Log:26 - Chrome browser started
+2021-02-06 01:02:37 INFO  Log:26 - Navigating to URL
+2021-02-06 01:02:38 INFO  Log:12 - **************************************************************************
+2021-02-06 01:02:38 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_001    $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-02-06 01:02:38 INFO  Log:14 - **************************************************************************
+2021-02-06 01:02:39 INFO  Log:26 - Submitting webform
+2021-02-06 01:02:39 INFO  Log:19 - *************************************************************************
+2021-02-06 01:02:39 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2021-02-06 01:02:39 INFO  Log:21 - *************************************************************************
+2021-02-06 01:02:39 INFO  Log:26 - Navigating to URL
+2021-02-06 01:02:39 INFO  Log:12 - **************************************************************************
+2021-02-06 01:02:39 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_002    $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-02-06 01:02:39 INFO  Log:14 - **************************************************************************
+2021-02-06 01:02:43 INFO  Log:26 - Submitting webform
+2021-02-06 01:02:43 INFO  Log:19 - *************************************************************************
+2021-02-06 01:02:43 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2021-02-06 01:02:43 INFO  Log:21 - *************************************************************************
+2021-02-06 01:02:43 INFO  Log:26 - Navigating to URL
+2021-02-06 01:02:43 INFO  Log:12 - **************************************************************************
+2021-02-06 01:02:43 INFO  Log:13 - $$$$$$$$$$$$$$$$$$$$$   Starting Selenium TestCase_003    $$$$$$$$$$$$$$$$$$$$$$$$$
+2021-02-06 01:02:43 INFO  Log:14 - **************************************************************************
+2021-02-06 01:02:46 INFO  Log:26 - Submitting webform
+2021-02-06 01:02:47 INFO  Log:19 - *************************************************************************
+2021-02-06 01:02:47 INFO  Log:26 - XXXXXXXXXXXXX               -E---N---D-         XXXXXXXXXXXXXXXXXXXX
+2021-02-06 01:02:47 INFO  Log:21 - *************************************************************************
+2021-02-06 01:02:47 INFO  Log:26 - Closing the browser
+2021-02-06 01:02:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2021-02-06 01:02:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2021-02-06 01:02:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2021-02-06 01:02:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-06 01:02:47 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 01:11:05 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 01:11:05 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 01:11:06 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 01:11:06 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 01:11:06 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 01:11:06 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:11:06 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:11:06 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:11:06 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 01:11:06 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 01:11:07 INFO  Log:26 - Chrome browser started
+2021-02-06 01:11:10 INFO  Log:26 - Navigating to URL
+2021-02-06 01:11:26 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 01:11:26 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 01:11:27 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 01:11:27 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 01:11:27 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 01:11:27 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:11:27 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:11:27 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:11:27 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 01:11:27 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 01:11:28 INFO  Log:26 - Chrome browser started
+2021-02-06 01:11:30 INFO  Log:26 - Navigating to URL
+2021-02-06 01:11:33 INFO  Log:26 - Navigating to URL
+2021-02-06 01:11:37 INFO  Log:26 - Navigating to URL
+2021-02-06 01:11:39 INFO  Log:26 - Navigating to URL
+2021-02-06 01:11:42 INFO  Log:26 - Navigating to URL
+2021-02-06 01:11:45 INFO  Log:26 - Navigating to URL
+2021-02-06 01:11:57 INFO  Log:26 - Navigating to URL
+2021-02-06 01:12:01 INFO  Log:26 - Navigating to URL
+2021-02-06 01:12:02 INFO  Log:26 - Closing the browser
+2021-02-06 01:12:02 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("sv_SE", UTF-8, parsed); will try to load it.
+2021-02-06 01:12:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv_SE.ftl"): Not found
+2021-02-06 01:12:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_sv.ftl"): Not found
+2021-02-06 01:12:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-02-06 01:12:02 DEBUG cache:45 - Loading template for "Extent.ftl"("sv_SE", UTF-8, parsed) from "jar:file:/Users/bells/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-02-06 01:28:20 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 01:28:20 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 01:28:21 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 01:28:21 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 01:28:21 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 01:28:21 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:28:21 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:28:21 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:28:21 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 01:28:21 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 01:35:36 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 01:35:36 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 01:35:37 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 01:35:37 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 01:35:37 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 01:35:37 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:35:37 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:35:37 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:35:37 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 01:35:37 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver
+2021-02-06 01:38:12 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-02-06 01:38:12 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+2021-02-06 01:38:12 DEBUG ResolutionCache:183 - Resolution chrome=88 in cache (valid until 00:34:16 07/02/2021 CET)
+2021-02-06 01:38:12 INFO  WebDriverManager:571 - Using chromedriver 88.0.4324.96 (since Chrome 88 is installed in your machine)
+2021-02-06 01:38:12 TRACE CacheHandler:81 - Checking if chromedriver exists in cache
+2021-02-06 01:38:12 TRACE CacheHandler:66 - Filter cache by chromedriver -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver, /Users/bells/.m2/repository/webdriver/resolution.properties] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:38:12 TRACE CacheHandler:66 - Filter cache by 88.0.4324.96 -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver, /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:38:12 TRACE CacheHandler:66 - Filter cache by MAC -- input list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] -- output list [/Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver] 
+2021-02-06 01:38:12 DEBUG WebDriverManager:520 - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-06 01:38:12 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /Users/bells/.m2/repository/webdriver/chromedriver/mac64/88.0.4324.96/chromedriver

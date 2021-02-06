@@ -105,7 +105,9 @@ public class ExcelUtil {
     }
 
     //This method gets excel file, row and column number and set a value to the that cell.
-    public static void setCellData(String value, int RowNum, int ColNum) {
+    //Use this method down below if you wanna see the test result in Excel sheet
+
+/*    public static void setCellData(String value, int RowNum, int ColNum) {
         try {
             row = excelWSheet.getRow(RowNum);
             cell = row.getCell(ColNum);
@@ -126,7 +128,7 @@ public class ExcelUtil {
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
-        }
+        }*/
 
 /*        int rowCount = excelWSheet.getPhysicalNumberOfRows();
 
@@ -155,4 +157,4 @@ public class ExcelUtil {
                 return cell.getStringCellValue();
         }*/
     }
-}
+//}
