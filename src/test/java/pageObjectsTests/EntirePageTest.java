@@ -22,14 +22,14 @@ public class EntirePageTest extends BaseTests {
         getWindowManager().switchToTab("New window");
     }
 
-    @Test(priority = 2)
+/*    @Test(priority = 2)
     public void forgotPassword() throws InterruptedException {
         ForgotPasswordPage forgotPasswordPage = homePage.clickForgotPasswordLink();
         forgotPasswordPage.inputEmail("hej@gmail.com");
         forgotPasswordPage.clickRetrieveButton();
         Thread.sleep(2000);
         assertEquals(forgotPasswordPage.verifyText(), "Your e-mail's been sent!", "Email is incorrect");
-    }
+    }*/
 
     @Test(priority = 3)
     public void entryAd() throws InterruptedException {

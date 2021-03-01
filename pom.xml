@@ -82,7 +82,7 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
-            <version>3.0.2</version>
+            <version>3.0.7</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -110,6 +110,12 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.lkkushan101.accessilenium</groupId>
+            <artifactId>com.github.lkkushan101.accessilenium</artifactId>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
